@@ -11,5 +11,5 @@ provider "rancher2" {
   api_url   = ""
   token_key = ""
   bootstrap = false
-  insecure=true
+  insecure  = true
 }

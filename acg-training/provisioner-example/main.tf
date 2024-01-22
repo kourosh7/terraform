@@ -3,7 +3,7 @@ resource "null_resource" "mk" {
     command = "echo '0' > status.txt"
   }
   provisioner "local-exec" {
-    when = destroy
+    when    = destroy
     command = "echo '1' > status.txt"
   }
 }
